@@ -1,0 +1,28 @@
+{
+    "stranke": [{
+            "id": 1,
+            "slika": "slike/tina.jpg",
+            "ime": "Tina",
+            "tekst": "S Tino treniram že lep čas in rezultati so več kot vidni. Moje težave s kolenom zaradi plesne poškodbe skoraj popolnoma izginile, pa tudi kondicija se je toliko izboljšala, da lahko delam skoraj vse vaje in končno zmorem dve uri skupaj plesati in zabavati otroke. Zaradi hormonske terapije sem imela povišan pritisk, ki se je z vadbo uravnal, poleg tega nimam več težav z napadi lakote. Tina mi je sestavila jedilnik, ki mi ničesar ne prepoveduje ali zapoveduje, zato mi predpisan način prehranjevanja ne predstavlja problema. Med vadbo me Tina vzpodbuja, motivira in treninge pripravi glede na tvoje zmožnosti, specifike, želje, predvsem pa pazi na pravilno izvedbo. Treningi z njo ob boku so užitek."
+        },
+        {
+            "id": 2,
+            "slika": "slike/jan.jpg",
+            "ime": "Jan",
+            "tekst": "S Tino imam zelo pozitivno izkušnjo glede svetovanja in podpore glede prehrane, vadbe. Tina mi je sestavila personaliziran jedilnik za pridobivanje mase in pa seveda vadbo. Zelo sem bil zadovoljen in rezultati so se začeli kazati. Kar najbolj cenim pri Tini je njen odnos do strank saj je zelo ustrežljiva in vedno pripravljena kaj dodatno svetovati in pomagati. Priporočam."
+        },
+        {
+            "id": 3,
+            "slika": "slike/nikolina.jpg",
+            "ime": "Nikolina",
+            "tekst": "V začetku preteklega leta sem se odločila spremeniti življenjski slog. Telo me je opozarjalo, da je čas za spremembe, kar se je tudi odražalo na splošnem počutju. Vedela sem, da bo potrebno spremeniti prehrano in izboljšati mišično moč. Tina je bila moja naravna izbira. Poleg strokovnosti in profesionalnega odnosa, je najprej človek, ki razume, kako boleče so spremembe. V trenutkih, ko se je težko držati novega režima prehrane in telovadbe ter vztrajati pri zastavljenih ciljih, se kaže Tinina topla in sprejemajoča narava. Njena podpora in spodbuda je takrat najdragocenejša. Rezultati so potem tu."
+        },
+        {
+            "id": 4,
+            "slika": "slike/jakaMasterchef.jpg",
+            "ime": "Jaka",
+            "tekst": "Zakon trenerka...Tina je zelo strokovna in profesionalna, vse kar me zanima v zvezi z treningi in prehrano mi res odlično svetuje. Kljub temu da znam biti len, sva skupaj zelo hitro začela dosegati želene rezultate. Strokovna, simpatična in predvsem predana.... zakon kombinacija. Tina izgleda mirna, tiha duša, zato bi pričakoval da so tudi njeni treningi takšni, vendar  niso - njeni treningi so eksplozivni in nevsakdanji, zato so mi še toliko bolj všeč."
+        }
+
+    ]
+}

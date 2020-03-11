@@ -1,0 +1,415 @@
+html body {
+    background-image: linear-gradient(to bottom right, rgb(20, 20, 20), rgba(20, 20, 20, 0.8));
+}
+
+.logo {
+    height: 170px;
+    width: 170px;
+    padding: 0px;
+    float: left;
+    border-radius: 10%;
+    margin-left: 50px;
+    z-index: 0;
+
+}
+
+.logo:hover {
+    box-shadow: 1px 3px 15px;
+}
+
+.nav {
+    font-size: 25px;
+    font-family: 'Julius Sans One';
+    font-weight: bold;
+    align-items: center;
+
+}
+
+
+.header-nav {
+    margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: auto;
+    position: relative;
+
+}
+
+.header-nav li a {
+    float: left;
+    display: block;
+    color: #000;
+    margin: 0 auto;
+    padding: 40px;
+    padding-left: 70px;
+    text-shadow: 0.3px 0.3px 1px;
+}
+
+.header-nav li a:hover {
+    text-shadow: 1px 1px 3px;
+}
+
+li .footer-nav {
+    float: left;
+    display: block;
+    color: #000;
+    margin: 0 auto;
+    padding: 40px 100px 40px 100px;
+    text-shadow: 0.5px 0.5px 1.5px;
+}
+
+a {
+    color: #000;
+}
+
+.klik {
+    color: whitesmoke;
+}
+
+.klik:active {
+    color: rgb(104, 11, 11);
+}
+
+.displayPic {
+    max-width: 70%;
+    height: auto;
+    display: inline-block;
+    margin: 90px 50px 20px 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    z-index: 5;
+}
+
+.imageAnimation {
+    animation: slideshow 2.5s linear;
+}
+
+@keyframes slideshow {
+
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+
+}
+
+.stolpecSlika {
+    display: inline-block;
+    width: 60%;
+}
+
+.stolpecStranke {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+
+}
+
+.stranke ul {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    padding-left: 50px;
+    padding-top: 20px;
+
+}
+
+.stranke li {
+    font-style: italic;
+    color: whitesmoke;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+.mnenja-strank {
+    font-family: 'Julius Sans One';
+    font-weight: bold;
+    font-size: 35px;
+    text-shadow: 2px 3px 3px black;
+    color: whitesmoke;
+    float: center;
+    font-style: normal;
+    margin-top: 40px;
+    padding-top: 40px;
+
+}
+
+.stranke img {
+    max-height: 120px;
+    width: auto;
+    border-radius: 100%;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 2px 6px 0 rgba(0, 0, 0, 1);
+
+}
+
+#scrollUp {
+    position: absolute;
+    right: 30px;
+    top: 320px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: firebrick;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+#scrollDown {
+    position: absolute;
+    right: 30px;
+    bottom: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: firebrick;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+#scrollUp:hover {
+    background-color: rgb(104, 11, 11);
+}
+
+#scrollDown:hover {
+    background-color: rgb(104, 11, 11);
+}
+
+.footer-li {
+    float: left;
+    padding: 10px 20px;
+    margin: 10px 20px;
+    font-weight: bold;
+
+}
+
+.ikone {
+    height: 28px;
+    width: auto;
+    margin: 10px 40px;
+    padding: 0px;
+    float: right;
+}
+
+.icons {
+    height: 80px;
+    width: auto;
+    margin: 40px;
+    padding: 0px;
+    border-radius: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.icons:hover {
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.8), 0 10px 24px 0 rgba(0, 0, 0, 2);
+}
+
+small {
+    text-align: center;
+    font-size: 12px;
+    margin: 20px;
+    padding: 15px;
+    font-style: italic;
+    float: right;
+}
+
+.opis {
+    color: whitesmoke;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 10px 40px 40px 40px;
+    margin: 20px 500px 20px 50px;
+    text-shadow: 1px 2px 2px black;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: justify;
+}
+
+
+.naslov {
+    font-family: 'Julius Sans One';
+    font-weight: bold;
+    font-size: 48px;
+    text-shadow: 2px 3px 3px black;
+    color: whitesmoke;
+    font-style: normal;
+    margin-top: 60px;
+    padding: 40px 10px 10px 40px;
+    margin-left: 50px;
+}
+
+.intervju {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.codebrainer {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.ponudba {
+    margin-left: 20px;
+}
+
+.naslov2 {
+    font-family: 'Julius Sans One';
+    font-size: 30px;
+    text-shadow: 2px 3px 3px black;
+    color: whitesmoke;
+    font-style: normal;
+    margin-top: 40px;
+    margin-left: 50px;
+    padding-left: 40px;
+}
+
+.opis-slika {
+    height: 400px;
+    width: auto;
+    float: right;
+    margin: 10px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.opis-slika1 {
+    height: 400px;
+    width: auto;
+    float: right;
+    margin: 190px 100px 150px 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.opis-slika2 {
+    height: 350px;
+    width: auto;
+    float: right;
+    margin: 70px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.video {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 30px;
+}
+
+.facts {
+    line-height: 35px;
+    font-style: italic;
+    list-style-type: square;
+    margin: 20px 150px 20px 0px;
+}
+
+.tekst {
+    font-weight: lighter;
+    font-size: 11px;
+}
+
+.vizitka {
+    height: 380px;
+    width: auto;
+    display: inline-block;
+    margin: 35px 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    float: right;
+}
+
+.form {
+
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 12px;
+}
+
+.naslov-form {
+    font-size: 30px;
+    font-family: 'Julius Sans One';
+    text-shadow: 2px 3px 3px black;
+    color: whitesmoke;
+    font-style: normal;
+    margin-top: 90px;
+    margin-left: 70px;
+    padding-left: 20px;
+
+
+}
+
+input[type=text],
+input[type=submit] {
+    min-width: 450px;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+
+}
+
+input[type=submit] {
+    font-size: 16px;
+    font-family: 'Julius Sans One';
+    text-shadow: 0.4px 0.4px 1.5px;
+    background-color: firebrick;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+input[type=submit]:hover {
+    background-color: rgb(104, 11, 11);
+}
+
+input[id=message] {
+    height: 150px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    resize: none;
+
+}
+
+.map {
+    margin-left: 90px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+.slopedBackgroundTop {
+    padding: 10px 40px 50px 0px;
+    background-image: linear-gradient(to top right, rgb(104, 11, 11), firebrick);
+    box-shadow: 0px 5px 20px;
+    opacity: 0.8;
+    z-index: -1;
+    clip-path: polygon( 0 0, /* left top */
+    100% 0, /* right top */
+    100% 70%, /* right bottom */
+    0 100%/* left bottom */
+    );
+}
+
+.slopedBackgroundBottom {
+    padding: 20px;
+    padding-top: 40px;
+    background-image: linear-gradient(to bottom right, firebrick, rgb(104, 11, 11));
+    opacity: 0.8;
+    z-index: -1;
+    clip-path: polygon( 0 40px, /* left top */
+    100% 0, /* right top */
+    100% 100%, /* right bottom */
+    0 100%/* left bottom */
+    );
+}
+
+.clipShadow {
+    filter: drop-shadow(10px 10px 30px black);
+}
+
+.fb-ig {
+    margin-left: 60px;
+}
