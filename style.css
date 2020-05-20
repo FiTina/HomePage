@@ -1,16 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
 html body {
     background-image: linear-gradient(to bottom right, rgb(20, 20, 20), rgba(20, 20, 20, 0.8));
+    font-size: 100%;
 }
+
+/*layout*/
+
+.stolpecLevo {
+    display: inline-block;
+    width: 60%;
+}
+
+.stolpecDesno {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+/*header*/
 
 .logo {
     height: 170px;
     width: 170px;
-    padding: 0px;
+    padding: 0;
     float: left;
     border-radius: 10%;
     margin-left: 50px;
-    z-index: 0;
-
+    box-shadow: 0.5px 2px 10px;
 }
 
 .logo:hover {
@@ -19,12 +38,10 @@ html body {
 
 .nav {
     font-size: 25px;
-    font-family: 'Julius Sans One';
+    font-family: 'Julius Sans One', sans-serif;
     font-weight: bold;
     align-items: center;
-
 }
-
 
 .header-nav {
     margin: 20px;
@@ -35,7 +52,6 @@ ul {
     padding: 10px;
     overflow: auto;
     position: relative;
-
 }
 
 .header-nav li a {
@@ -43,9 +59,8 @@ ul {
     display: block;
     color: #000;
     margin: 0 auto;
-    padding: 40px;
-    padding-left: 70px;
-    text-shadow: 0.3px 0.3px 1px;
+    padding: 40px 40px 40px 70px;
+    text-shadow: 0.5px 0.5px 1.5px;
 }
 
 .header-nav li a:hover {
@@ -65,6 +80,8 @@ a {
     color: #000;
 }
 
+/*klikanje na linke v main-u*/
+
 .klik {
     color: whitesmoke;
 }
@@ -73,11 +90,23 @@ a {
     color: rgb(104, 11, 11);
 }
 
+/*slike*/
+
 .displayPic {
     max-width: 70%;
     height: auto;
     display: inline-block;
-    margin: 90px 50px 20px 90px;
+    margin: 90px 20px 20px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    z-index: 5;
+}
+
+.displayPic2 {
+    max-width: 100%;
+    min-width: 50%;
+    height: auto;
+    display: inline-block;
+    margin: 90px 20px 20px 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
     z-index: 5;
 }
@@ -97,21 +126,11 @@ a {
 
 }
 
-.stolpecSlika {
-    display: inline-block;
-    width: 60%;
-}
-
-.stolpecStranke {
-    display: inline-block;
-    width: 30%;
-    vertical-align: top;
-
-}
+/*homepage vsebina*/
 
 .stranke ul {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-    padding-left: 50px;
+    padding-left: 20px;
     padding-top: 20px;
 
 }
@@ -124,12 +143,11 @@ a {
 }
 
 .mnenja-strank {
-    font-family: 'Julius Sans One';
+    font-family: 'Julius Sans One', sans-serif;
     font-weight: bold;
     font-size: 35px;
     text-shadow: 2px 3px 3px black;
     color: whitesmoke;
-    float: center;
     font-style: normal;
     margin-top: 40px;
     padding-top: 40px;
@@ -182,6 +200,8 @@ a {
     background-color: rgb(104, 11, 11);
 }
 
+/*footer*/
+
 .footer-li {
     float: left;
     padding: 10px 20px;
@@ -194,7 +214,7 @@ a {
     height: 28px;
     width: auto;
     margin: 10px 40px;
-    padding: 0px;
+    padding: 0;
     float: right;
 }
 
@@ -202,7 +222,7 @@ a {
     height: 80px;
     width: auto;
     margin: 40px;
-    padding: 0px;
+    padding: 0;
     border-radius: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
@@ -220,20 +240,21 @@ small {
     float: right;
 }
 
+/*vsebina o meni in ponudba*/
+
 .opis {
     color: whitesmoke;
     font-size: 16px;
     line-height: 25px;
-    padding: 10px 40px 40px 40px;
-    margin: 20px 500px 20px 50px;
+    padding: 10px 10px 40px 40px;
+    margin: 20px;
     text-shadow: 1px 2px 2px black;
     font-family: 'Noto Sans TC', sans-serif;
     text-align: justify;
 }
 
-
 .naslov {
-    font-family: 'Julius Sans One';
+    font-family: 'Julius Sans One', sans-serif;
     font-weight: bold;
     font-size: 48px;
     text-shadow: 2px 3px 3px black;
@@ -241,7 +262,18 @@ small {
     font-style: normal;
     margin-top: 60px;
     padding: 40px 10px 10px 40px;
-    margin-left: 50px;
+    margin-left: 20px;
+}
+
+.naslov2 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 3px 3px black;
+    color: whitesmoke;
+    font-style: normal;
+    margin-top: 40px;
+    margin-left: 20px;
+    padding-left: 40px;
 }
 
 .intervju {
@@ -258,41 +290,6 @@ small {
     margin-left: 20px;
 }
 
-.naslov2 {
-    font-family: 'Julius Sans One';
-    font-size: 30px;
-    text-shadow: 2px 3px 3px black;
-    color: whitesmoke;
-    font-style: normal;
-    margin-top: 40px;
-    margin-left: 50px;
-    padding-left: 40px;
-}
-
-.opis-slika {
-    height: 400px;
-    width: auto;
-    float: right;
-    margin: 10px 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-}
-
-.opis-slika1 {
-    height: 400px;
-    width: auto;
-    float: right;
-    margin: 190px 100px 150px 80px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-}
-
-.opis-slika2 {
-    height: 350px;
-    width: auto;
-    float: right;
-    margin: 70px 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-}
-
 .video {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
     margin-top: 30px;
@@ -302,13 +299,17 @@ small {
     line-height: 35px;
     font-style: italic;
     list-style-type: square;
-    margin: 20px 150px 20px 0px;
+    margin: 20px 20px 20px 0;
 }
 
-.tekst {
-    font-weight: lighter;
-    font-size: 11px;
+
+.map {
+    margin-left: 60px;
+    margin-bottom: 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
 }
+
+/*kontakt*/
 
 .vizitka {
     height: 380px;
@@ -320,22 +321,23 @@ small {
 }
 
 .form {
-
     font-family: 'Noto Sans TC', sans-serif;
     font-size: 12px;
 }
 
 .naslov-form {
     font-size: 30px;
-    font-family: 'Julius Sans One';
+    font-family: 'Julius Sans One', sans-serif;
     text-shadow: 2px 3px 3px black;
     color: whitesmoke;
     font-style: normal;
     margin-top: 90px;
     margin-left: 70px;
     padding-left: 20px;
+}
 
-
+.fb-ig {
+    margin-left: 60px;
 }
 
 input[type=text],
@@ -348,12 +350,11 @@ input[type=submit] {
     border-radius: 4px;
     box-sizing: border-box;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-
 }
 
 input[type=submit] {
     font-size: 16px;
-    font-family: 'Julius Sans One';
+    font-family: 'Julius Sans One', sans-serif;
     text-shadow: 0.4px 0.4px 1.5px;
     background-color: firebrick;
     color: black;
@@ -371,38 +372,26 @@ input[id=message] {
     box-sizing: border-box;
     border-radius: 4px;
     resize: none;
-
 }
 
-.map {
-    margin-left: 90px;
-    margin-bottom: 60px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-}
+/*asimetrični header in footer*/
 
 .slopedBackgroundTop {
-    padding: 10px 40px 50px 0px;
+    padding: 10px 40px 50px 0;
     background-image: linear-gradient(to top right, rgb(104, 11, 11), firebrick);
-    box-shadow: 0px 5px 20px;
+    box-shadow: 0 5px 20px;
     opacity: 0.8;
     z-index: -1;
-    clip-path: polygon( 0 0, /* left top */
-    100% 0, /* right top */
-    100% 70%, /* right bottom */
-    0 100%/* left bottom */
+    clip-path: polygon(0 0, /* left top */ 100% 0, /* right top */ 100% 70%, /* right bottom */ 0 100% /* left bottom */
     );
 }
 
 .slopedBackgroundBottom {
-    padding: 20px;
-    padding-top: 40px;
+    padding: 40px 20px 20px 20px;
     background-image: linear-gradient(to bottom right, firebrick, rgb(104, 11, 11));
     opacity: 0.8;
     z-index: -1;
-    clip-path: polygon( 0 40px, /* left top */
-    100% 0, /* right top */
-    100% 100%, /* right bottom */
-    0 100%/* left bottom */
+    clip-path: polygon(0 40px, /* left top */ 100% 0, /* right top */ 100% 100%, /* right bottom */ 0 100% /* left bottom */
     );
 }
 
@@ -410,6 +399,65 @@ input[id=message] {
     filter: drop-shadow(10px 10px 30px black);
 }
 
-.fb-ig {
-    margin-left: 60px;
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+    .stolpecLevo, .stolpecDesno {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .displayPic2 {
+        width: 80%;
+    }
+
+    .video {
+        width: 90%;
+        height: auto;
+    }
+
+    .footer-li {
+        display: none;
+    }
+
+    .big-screen {
+        display: none;
+    }
+
+    .logo {
+        height: 120px;
+        width: 120px;
+        padding: 0;
+        float: left;
+        border-radius: 10%;
+        margin-left: 50px;
+        box-shadow: 0.5px 2px 10px;
+        z-index: initial;
+    }
+
+    .slopedBackgroundTop {
+        padding: 10px 40px 50px 0;
+        background-image: linear-gradient(to top right, rgb(104, 11, 11), firebrick);
+        box-shadow: 0 5px 20px;
+        opacity: 0.8;
+        z-index: -1;
+        height: 150px;
+        clip-path: none;
+    );
+    }
+
+    .header-nav {
+        margin: 5px;
+    }
+
+    .header-nav li a {
+
+        display: none;
+    }
+
+    .opis {
+        font-size: 0.8rem;
+    }
+
 }
+
+

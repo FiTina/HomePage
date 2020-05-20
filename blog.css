@@ -4,22 +4,22 @@
 
 /* Add a gray background color with some padding */
 body {
-  padding: 0px;
-  background-color: rgb(20, 20, 20);
+    padding: 0;
+    background-color: rgb(20, 20, 20);
 }
 
 /* Header/Blog Title */
 .blogName {
-  font-family: "Julius Sans One";
-  text-shadow: 2.5px 3.5px 3.5px black;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
-  font-weight: bold;
-  padding: 10px;
-  font-size: 45px;
-  text-align: center;
-  color: firebrick;
-  background-image: url("slike/dumbbell.jpg");
-  
+    font-family: "Julius Sans One", sans-serif;
+    text-shadow: 2.5px 3.5px 3.5px black;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 45px;
+    text-align: center;
+    color: firebrick;
+    background-image: url("slike/dumbbell.jpg");
+
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -56,14 +56,14 @@ body {
 }
 
 h2 {
-    font-family: 'Tahoma';
+    font-family: 'Tahoma', sans-serif;
     font-weight: lighter;
     text-shadow: 2px 3px 3px black;
     padding: 20px;
 }
 
 h3 {
-    font-family: 'Tahoma';
+    font-family: 'Tahoma', sans-serif;
     font-weight: lighter;
     text-shadow: 2px 3px 3px black;
     padding: 20px;
@@ -82,16 +82,16 @@ h5 {
 }
 
 .recept {
-  list-style-type: square;
-  font-family: "Tahoma";
-  line-height: 1.5;
-  padding-left: 40px;
+    list-style-type: square;
+    font-family: "Tahoma", sans-serif;
+    line-height: 1.5;
+    padding-left: 40px;
 }
 
 ol {
-  font-family: "Tahoma";
-  line-height: 1.5;
-  text-shadow: 2px 3px 3px black;
+    font-family: "Tahoma", sans-serif;
+    line-height: 1.5;
+    text-shadow: 2px 3px 3px black;
 }
 
 li:not(.footer-li) {
