@@ -455,9 +455,18 @@ input[id=message] {
     }
 
     .opis {
-        font-size: 0.8rem;
+        font-size: 80%;
     }
 
+    .naslov {
+        font-size: 40px;
+        margin-top: 25px;
+    }
+
+    .naslov2 {
+        font-size: 22px;
+        margin-top: 18px;
+    }
 }
 
 
